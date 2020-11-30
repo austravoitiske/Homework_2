@@ -173,7 +173,7 @@ header{
     grid-area: body;
     display: grid;
     grid-template-columns: 1fr 350px;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr auto;
     grid-template-areas: 
     "feature small_advert"
     "listing listing";     
