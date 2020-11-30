@@ -210,7 +210,7 @@ header{
 body{
     display: grid;
     grid-template-columns: 1fr 350px;
-    grid-template-rows: auto auto 500px auto;
+    grid-template-rows: auto auto auto auto;
     grid-template-areas:
     "header header"
     "hero screen_advert"
@@ -247,7 +247,7 @@ header{
 .hero_feature{
     grid-area: hero_feature;
     background-color: navy;
-    height: 180;
+    height: 180px;
 }
 .action{
     grid-area: action;
@@ -296,6 +296,6 @@ header{
     grid-area:sidefeature;
     display: grid;
     padding: 20px;
-    
+  
 }
 }
